@@ -1,0 +1,173 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#text-container
+{
+    width:30%;
+    margin: auto;
+}
+#title-article
+{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin:20px 0;
+}
+#author
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+#author-icon
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#icons-container
+{
+    text-align: right;
+    width:40%
+}
+.icons-article
+{
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+#article-main-text
+{
+    margin: 20px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#outside-boxes
+{
+    margin:25px 0
+}
+.boxes
+{
+    display: inline-block;
+    padding:10px 10px;
+    margin: 0px 10px;
+    background-color: rgb(231, 228, 228);
+}
+.boxes:first-child
+{
+    margin-left: 0px;
+}
+#claps
+{
+    margin:10px 0
+}
+#end-user
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px 0
+}
+.border-footer
+{
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(228, 227, 227);
+}
+#more-reads
+{
+    width:80%;
+    margin: auto;
+    margin-top: 30px;
+}
+#more-siren
+{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+    border-bottom: 2px solid lightgray;
+}
+#related-reads
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:30px 0
+}
+.inside-related-reads
+{
+    width:30%;
+    position: relative;
+    height:500px;
+    border:2px solid rgb(75, 74, 74);
+    border-radius: 5px;
+}
+.inside-related-reads-extra
+{
+    margin: 15px 0;
+}
+.inside-related-reads-title
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 15px 0;
+}
+.inside-related-reads-div
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0%;
+}
+#outside-more-reads
+{
+    background-color:rgb(231, 230, 230);
+    padding:10px 0
+}
+#article-navbar
+{
+    width:80%;
+    margin: auto;
+}
+@media screen and (max-width:700px) {
+    #text-container
+    {
+        width:80%;
+    }
+    #author
+    {
+        flex-direction: column;
+    }
+    #icons-container
+    {
+        width:100%;
+        text-align: left;
+        margin:10px 0
+    }
+    .boxes
+    {
+        display:block;
+        margin:5px 0;
+        text-align: center;
+    }
+    #outside-more-reads
+    {
+        width:100%;
+        margin: auto;
+    }
+    #more-reads
+    {
+        width: 80%;
+    }
+    #related-reads
+    {
+        flex-direction: column;
+    }
+    .inside-related-reads
+    {
+        width: 100%;
+        margin:15px 0;
+        height:auto
+    }
+    .inside-related-reads-div
+    {
+        position: static;
+    }
+}

@@ -1,0 +1,111 @@
+#bollywood
+{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: auto;
+   
+}
+#bollywood-main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top:30px
+}
+#bolly-top-posts
+{
+    width:25%
+}
+.inside-bolly-main
+{
+    width:70%
+}
+.inside-bolly
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    border-bottom: 3px solid rgb(230, 227, 227);
+}
+.inside-bolly-img
+{
+    width:40%
+}
+.inside-bolly-para
+{
+    width:55%
+}
+.inside-bolly-title
+{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+.inside-bolly-text
+{
+    margin-bottom: 25px;
+}
+.inside-bolly-date
+{
+    font-weight:500;
+}
+.bolly-title
+{
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 10px;
+        border-bottom: 3px solid rgba(245, 95, 95, 0.897);
+        margin-bottom: 30px;
+}
+#bolly-ad
+{
+    margin-top:40px;
+    margin-left:auto ;
+    height:450px;
+    border: 1px solid black;
+    position: relative;
+}
+#bolly-ad-title
+{
+    position: absolute;
+    top:50%;
+    left:20%;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+a
+{
+    color:inherit;
+    text-decoration: none;
+}
+@media only screen and (max-width:700px) {
+    #bollywood-main
+    {
+        flex-direction: column;
+    }
+    #bolly-top-posts
+    {
+        width:100%;
+        margin-top: 30px;
+    }
+    #bolly-ad
+    {
+        display: none;
+    }
+    .inside-bolly-main
+    {
+        width: 100%;
+    }
+    .inside-bolly-title
+    {
+        font-size: 1rem;
+        margin-top:0px;
+        margin-bottom: 10px; 
+    }
+    
+}

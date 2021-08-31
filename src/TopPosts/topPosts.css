@@ -1,0 +1,48 @@
+
+    .title
+    {
+        display: inline-block;
+        font-size: 2rem;
+        font-weight: 700;
+        padding-bottom: 10px;
+        border-bottom: 3px solid rgba(245, 95, 95, 0.897);
+        margin-bottom: 30px;
+    }
+    #top-posts-1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #top-posts-1-text
+    {
+        width:80%
+    }
+    #top-posts-1-number
+    {
+        width:10%;
+        font-size: 1.5rem;
+    }
+    .inside-top-posts-main
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 2px solid rgb(230, 227, 227);
+    }
+    .inside-top-posts-main-img
+    {
+        width:30%
+    }
+    .inside-top-posts-main-text
+    {
+        width: 55%;
+    }
+    .inside-top-posts-main-number
+    {
+        width:10%;
+        font-size: 1.5rem;
+    }                        
+  

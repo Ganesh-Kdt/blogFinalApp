@@ -1,0 +1,295 @@
+
+#home
+{
+    width:85%;
+    margin:auto;
+    font-family: 'Montserrat', sans-serif;
+}
+#featured-articles
+{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size:1.5rem;
+    color: white;
+}
+.featured-article2
+{
+    display: none;
+}
+.img
+{
+border-radius:5px;
+}
+#article1
+{
+    position: relative;
+    width: 64%;
+}
+#article1-text
+{
+    position: absolute;
+    top:200px;
+    left:50px;
+}
+#article23
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: large;
+}
+.article23-text
+{
+    position: relative;
+}
+.text
+{
+    position: absolute;
+    bottom:10px;
+    left:10px
+}
+#latest-articles3
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.la3
+{
+    width: 32%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.la-spacing
+{
+    margin-top: 15px;
+}
+.la-width
+{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+#c1
+{
+    display: flex;
+    justify-content: space-between;
+}
+#c1-main{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+}
+#c1-side
+{
+    width:25%;
+    border: 2px solid rgb(230, 227, 227);
+}
+.inside-c1-main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.inside-c1-main-img
+{
+    width:35%
+}
+.inside-c1-main-text
+{
+    width: 60%;
+}
+.inside-c1-main-text-title
+{
+    margin-bottom: 30px;
+    font-weight:500;
+    font-size:2rem
+}
+.inside-c1-main-text-text
+{
+    margin-bottom: 30px;
+    font-size:1.5rem
+}
+.c1-top{
+    padding-top:15px;
+    border-top:2px solid rgb(230, 227, 227);
+    margin-bottom:15px
+}
+.c1-spacing
+{
+    margin-top: 10px;
+}
+#top-posts
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+  
+}
+#top-posts-img
+{
+    width:70%;
+    position: relative;
+}
+#top-posts-img-title
+{
+    position: absolute;
+    top:60%;
+    left:15%;
+    font-size: 2rem;
+    font-weight: 600;
+    color:whitesmoke
+}
+#top-posts-img-title-id
+{
+    text-align: center;
+    margin-top: 25px;
+    font-size: medium;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-top:3px solid rgb(230, 227, 227);
+    border-bottom: 3px solid rgb(230, 227, 227);
+}
+.inside-footer
+{
+    width:30%;
+    padding-right: 25px;
+    border-right: 2px solid rgb(230, 227, 227);
+}
+.inside-footer:last-child
+{
+    border-right: none;
+}
+.footer-spacing{
+    margin-top:15px
+}
+.footer-title{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.main-spacing
+{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.load-more
+{
+    font-size: 1rem;
+    margin-top:10px;
+    color:rgb(194, 188, 188)
+}
+.fa-arrow-right
+{
+    color:rgb(243, 113, 113)
+}
+.border-only
+{
+    border-bottom:2px solid  rgb(230, 227, 227);
+    margin-bottom:30px
+}
+#top-posts-main
+    {
+        width:25%
+    }
+@media only screen and (max-width:700px) {
+    #top-posts-main
+    {
+        width:100%
+    }
+    .border-only
+    {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+    #latest-articles3
+    {
+        flex-direction: column;
+    }
+    .la3
+    {
+        width:100%
+    }
+    .la3-spacing
+    {
+        margin-bottom: 30px;
+    }
+    #c1
+    {
+        flex-direction: column;
+    }
+    #c1-main
+    {
+        width:100%
+    }
+    .inside-c1-main-text-title
+    {
+        font-weight:500;
+        font-size:1rem
+    }
+    .inside-c1-main-text-text
+    {
+        font-size:0.9rem
+    }
+    #c1-side
+    {
+        display: none;
+    }
+    #top-posts
+    {
+        flex-direction: column;
+    }
+    #top-posts-img
+    {
+        display: none;
+    }
+    .footer
+    {
+        flex-direction: column;
+    }
+    .inside-footer
+    {
+        width: 100%;
+        padding-right: 0px;
+        border-right: 0;
+        margin-top:20px
+    }
+    #featured-articles
+    {
+        display: none;
+    }
+    .featured-article2
+    {
+        display: block;
+        position: relative;
+        color:whitesmoke;
+        font-size: 1.3rem;
+    }
+    .featured-article2-text1
+    {
+        position: absolute;
+        top:50%;
+        font-weight: 600;
+    }
+    .featured-article2-text2
+    {
+        position: absolute;
+        bottom:5%;
+    
+    }
+    .featured-article2-text3
+    {
+        position: absolute;
+        bottom:10%;
+        right:10%
+    }
+}

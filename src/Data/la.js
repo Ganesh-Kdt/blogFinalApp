@@ -1,0 +1,30 @@
+const la=[
+    {
+        id:10,
+        img:"/blogapp/gaming-t3.jpg",
+        title:"Computer Space and beyond: 50 years of gaming",
+        text:"What is now a multi-billion pound industry started out as a humble arcade machine created by a group of college students in 1971.Before then, playing video games had been a geeky pastime for small groups on university tech campuses, but in 1971, Nolan Bushnell, a student at the University of Utah, joined up with Jim Stein, a Stanford University researcher, to make a game.They were both players of a game called Spacewar!, which was being run in a university lab. From Nolan's experience of working at amusement parks, the pair saw potential in making an arcade version of a video game.After working on it for several years, they joined forces with Nutting Associates, an arcade company. Their game, Computer Space, was released for the first time for a physical test run in August 1971.Built in a fibreglass cabinet, the simplistic space shooter game was hailed a success. The first arcade video game had been made.But how did we get from the bleeps and bloops of the arcade to an industry that's worth more than music and film combined?",
+        date:"Jan 28,2019",
+        pre:"What is now a multi-billion pound industry started out as a humble arcade machine created by a group of college students in 1971.",
+        category:"Technology",
+    },
+    {
+        id:19,
+        img:"/blogapp/Gal-Gadot-h5.webp",
+        title:"Gal Gadot juggles work and motherhood",
+        text:"Wonder Woman star Gal Gadot has not only won hearts for her movies or action sequences, but she also rules social media for her simple and bold statements in the easiest way. The actor recently shared a few photos on her official Instagram handle where she can be seen pumping breast milk while getting ready on a set.In the images which are currently going viral, Gadot can be seen getting her hair and makeup done as she happily and effortlessly pumps breast milk into the bottle. She is snapped sitting on a chair in a white robe and a cape draped around her shoulders.The mother-of-three, Gadot recently welcomed her third child with husband Yaron Varsano, whom they named Daniella. The couple’s third child was born in June. They also have two other daughters -Alma Varsano, who is 9-year-old and Maya Varsano, who is 4-year-old. Varsan is a real estate developer, writes The Indian Express.With this post, Gadot has joined the list of other celebrity moms who have normalised breastfeeding and pumping breast milk while being at work.Days ago, Loki actor Sophia Di Martino too shared an image on her social media handle, where she spoke about how her costume allowed her to pump breast milk on set. Moreover, in the recent past American model and personality Chrissy Teigen shared something similar. Among Indian celebrities, actors like Neha Dhupia and Amrita Rao have shared photos of breastfeeding their newborns on social media and making an effort to normalise it.",
+        date:"Jan 28,2019",
+        pre:"Wonder Woman star Gal Gadot has not only won hearts for her movies or action sequences, but she also rules social media for her simple and bold statements in the easiest way.",
+        category:"Hollywood",
+    },
+    {
+        id:27,
+        img:"/blogapp/woman-exercising-on-yoga-f6.jpg",
+        title:"The Mental Health Benefits of Exercise",
+        text:"Exercise is not just about aerobic capacity and muscle size. Sure, exercise can improve your physical health and your physique, trim your waistline, improve your sex life, and even add years to your life. But that’s not what motivates most people to stay active.People who exercise regularly tend to do so because it gives them an enormous sense of well-being. They feel more energetic throughout the day, sleep better at night, have sharper memories, and feel more relaxed and positive about themselves and their lives. And it’s also a powerful medicine for many common mental health challenges.Regular exercise can have a profoundly positive impact on depression, anxiety, and ADHD. It also relieves stress, improves memory, helps you sleep better, and boosts your overall mood. And you don’t have to be a fitness fanatic to reap the benefits. Research indicates that modest amounts of exercise can make a real difference. No matter your age or fitness level, you can learn to use exercise as a powerful tool to deal with mental health problems, improve your energy and outlook, and get more out of life.Studies show that exercise can treat mild to moderate depression as effectively as antidepressant medication—but without the side-effects, of course. As one example, a recent study done by the Harvard T.H. Chan School of Public Health found that running for 15 minutes a day or walking for an hour reduces the risk of major depression by 26%. In addition to relieving depression symptoms, research also shows that maintaining an exercise schedule can prevent you from relapsing.Exercise is a powerful depression fighter for several reasons. Most importantly, it promotes all kinds of changes in the brain, including neural growth, reduced inflammation, and new activity patterns that promote feelings of calm and well-being. It also releases endorphins, powerful chemicals in your brain that energize your spirits and make you feel good. Finally, exercise can also serve as a distraction, allowing you to find some quiet time to break out of the cycle of negative thoughts that feed depression.",
+        date:"Jan 28,2019",
+        pre:"Exercise is not just about aerobic capacity and muscle size. Sure, exercise can improve your physical health and your physique, trim your waistline, improve your sex life, and even add years to your life.",
+        category:"Fitness",
+    },
+]
+export default la
